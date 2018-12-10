@@ -12,10 +12,14 @@
     ],
     "lib": [
       "es2017",
-      "dom"
+      "dom",
+      "esnext.asynciterable"
     ],
     "baseUrl": ".",
     "paths": {
+      "@nxangular/admin/dashboard": [
+        "libs/admin/dashboard/src/index.ts"
+      ]
     }
   },
   "exclude": [
